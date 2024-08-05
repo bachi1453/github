@@ -1,0 +1,118 @@
+body{
+    background-color: #202529;
+    color:white ;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+.header button{
+    background-color: #00b4d8;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+}
+
+.header button:hover {
+    background-color: #0096c7;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #00b4d8;
+    padding-bottom: 5px;
+}
+
+.job, .education, .skills ul, .awards ul, .traits ul, .recent-works ul, .contact p {
+    margin: 10px 0;
+}
+
+.skills ul, .awards ul, .traits ul, .recent-works ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .awards li, .traits li, .recent-works li {
+    margin: 5px 0;
+}
+
+.skills li:before, .awards li:before, .traits li:before, .recent-works li:before {
+    content: "•";
+    color: #00b4d8;
+    padding-right: 10px;
+}
+
+.recent-works a {
+    color: #00b4d8;
+    text-decoration: none;
+}
+
+.recent-works a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #00b4d8;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    section {
+        margin: 15px 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+}
